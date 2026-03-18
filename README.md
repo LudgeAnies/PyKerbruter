@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# PyKerbruter
-=======
+
 # PyKerbruter - Python wrapper over the Kerbrute utility
 It is designed to spray passwords using the Kerberos protocol. Functional:
 - Accepts in the parameters a list of logins, a list of passwords, a domain, and a delay in seconds between spray breaks;
@@ -47,4 +45,3 @@ Optional arguments:
 ```bash
 python py-kerbruter.py -u users.txt -p passwords.txt -d example.com -dc dc01.example.com -t 230
 ```
->>>>>>> 0c96de8 (Kerbruter add)
